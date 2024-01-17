@@ -443,6 +443,7 @@
     }
   },
   {
+    "obj_attr": "static",
     "obj_id": "1001",
     "obj_type": "Truck_\u5361\u8f66",
     "psr": {
