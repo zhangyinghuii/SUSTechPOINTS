@@ -3,24 +3,23 @@
 class ObjectCategory
 {
 
-
     obj_type_map = {
-        Car_轿车:               {color: '#86af49',  size:[4.5, 1.8, 1.5], attr:["door open111", "trunk open"]},
-        Pedestrian_行人:        {color: '#ff0000',  size:[0.4, 0.5, 1.7], attr:["umbrella", "sitting", "squating", "bending over", "luggage"]},
-        Van_面包车:             {color: '#00ff00',  size:[4.5, 1.8, 1.5], attr:["door open", "trunk open"]},
+        Car_轿车:               {color: '#86af49',  size:[4.5, 1.8, 1.5], attr:["door open(门打开)", "trunk open(后备箱打开)"]},
+        Pedestrian_行人:        {color: '#ff0000',  size:[0.4, 0.5, 1.7], attr:["umbrella(雨伞)", "sitting(坐)", "squating(蹲)", "bending over(弯腰)", "luggage(行李箱)"]},
+        Van_面包车:             {color: '#00ff00',  size:[4.5, 1.8, 1.5], attr:["door open(门打开)", "trunk open(后备箱打开)"]},
         Bus_公交车:             {color: '#ffff00',  size:[13, 3, 3.5]},
         Truck_卡车:             {color: '#00ffff',  size:[10., 2.8, 3]},
         
-        ScooterRider_骑电动车的人:  {color: '#ff8800',  size:[1.6, 0.6, 1.6], attr:["umbrella", "1 passenger", "2 passengers", "3 passengers"]},
+        ScooterRider_骑电动车的人:  {color: '#ff8800',  size:[1.6, 0.6, 1.6], attr:["umbrella(雨伞)", "1 passenger(1个乘客)", "2 passengers(2个乘客)", "3 passengers(3个乘客)"]},
         Scooter_电动车:             {color: '#aaaa00',  size:[1.6, 0.6, 1.0]},
 
         
-        BicycleRider_骑自行车的人:   {color: '#88ff00',  size:[1.6, 0.6, 1.7], attr:["umbrella", "1 passenger", "2 passengers", "3 passengers"]},
+        BicycleRider_骑自行车的人:   {color: '#88ff00',  size:[1.6, 0.6, 1.7], attr:["umbrella(雨伞)", "1 passenger(1个乘客)", "2 passengers(2个乘客)", "3 passengers(3个乘客)"]},
         Bicycle_自行车:             {color: '#ff8800',  size:[1.6, 0.6, 1.2], attr:["laying down"]},
 
 
-        Motorcycle_摩托车:          {color: '#aaaa00',  size:[1.6, 0.6, 1.2], attr:["umbrella"]},
-        MotorcyleRider_骑摩托车的人: {color: '#ff8800',  size:[1.6, 0.6, 1.6], attr:["umbrella", "1 passenger", "2 passengers", "3 passengers"]},
+        Motorcycle_摩托车:          {color: '#aaaa00',  size:[1.6, 0.6, 1.2], attr:["umbrella(雨伞)"]},
+        MotorcyleRider_骑摩托车的人: {color: '#ff8800',  size:[1.6, 0.6, 1.6], attr:["umbrella(雨伞)", "1 passenger(1个乘客)", "2 passengers(2个乘客)", "3 passengers(3个乘客)"]},
 
         
 

@@ -127,6 +127,7 @@
     }
   },
   {
+    "obj_attr": "door open(\u95e8\u6253\u5f00),trunk open(\u540e\u5907\u7bb1\u6253\u5f00)",
     "obj_id": "12",
     "obj_type": "Car_\u8f7f\u8f66",
     "psr": {

@@ -170,7 +170,7 @@
     }
   },
   {
-    "obj_attr": "door open,trunk open,static",
+    "obj_attr": "door open,trunk open,static,door open111",
     "obj_id": "15",
     "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
