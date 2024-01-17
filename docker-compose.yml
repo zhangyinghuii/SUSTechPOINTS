@@ -1,0 +1,37 @@
+version: "3"
+
+services:
+  app:
+    image: sustechpoint_chinese:1.0
+    environment:
+      - PORT=30080
+      # 如果模型不存在，那么就从网络上 下载
+      - DownloadModelFromPrivateNetwork=True
+      ## 模型下载的地址 
+    volumes:
+      #- '/tmp/.X11-unix:/tmp/.X11-unix'
+      #- '$XAUTHORITY:$XAUTHORITY'
+      - './data:/root/SUSTechPOINTS/data' 
+      #workspaces 这个 的用途是用于输出临时变量 
+    # 使用宿主的网络
+    #workin
+    #network_mode: host
+    #  # socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    ports:
+      - "8081:8081"
+    #command:   glxinfo | grep -i vendor
+    #command: bash  /app/panotic-src/run-docker-pcd-panotic.sh
+    #command: python3 panotic_app/batch_image_panotic/v3_panotic_coco/images-panotic-coco-stander-30080-docker-inner.py
+    command: bash
+
+
+
+
+# https://github.com/tallysmartins/docker-cudagl
+
+
+
+#  docker-compose  up
+#  docker-compose run --rm     app  bash
