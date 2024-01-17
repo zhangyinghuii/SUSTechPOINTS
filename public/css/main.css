@@ -609,7 +609,7 @@ dynamic set obj-type css has higher priority than this one.
 	/* top: 100%;
 	left: 0%; */
 	background-color: var(--widget-background-color);
-	width: 250px;
+	min-width: 400px;
 	line-height: 1.5;
 	z-index: 1;
 	display: none;
