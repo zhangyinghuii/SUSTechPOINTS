@@ -148,6 +148,7 @@
     }
   },
   {
+    "obj_attr": "",
     "obj_id": "12",
     "obj_type": "Bus_\u516c\u4ea4\u8f66",
     "psr": {
@@ -169,6 +170,7 @@
     }
   },
   {
+    "obj_attr": "door open,trunk open,static",
     "obj_id": "15",
     "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
@@ -211,6 +213,7 @@
     }
   },
   {
+    "obj_attr": "door open,trunk open,static",
     "obj_id": "23",
     "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
@@ -358,6 +361,7 @@
     }
   },
   {
+    "obj_attr": "squating,umbrella",
     "obj_id": "55",
     "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {

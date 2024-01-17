@@ -1,7 +1,7 @@
 [
   {
     "obj_id": "1",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 4.784003790176939,
@@ -21,29 +21,8 @@
     }
   },
   {
-    "obj_id": "2",
-    "obj_type": "Car_轿车",
-    "psr": {
-      "position": {
-        "x": 3.580507785183727,
-        "y": -2.175397551939045,
-        "z": -1.084011808
-      },
-      "rotation": {
-        "x": -0.06819227924229494,
-        "y": 0.002044793837571052,
-        "z": 4.740576049921166
-      },
-      "scale": {
-        "x": 4.681905196097252,
-        "y": 1.9168826499425866,
-        "z": 1.5
-      }
-    }
-  },
-  {
     "obj_id": "4",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 3.2683225476886473,
@@ -106,7 +85,7 @@
   },
   {
     "obj_id": "8",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 7.053143610148254,
@@ -126,6 +105,7 @@
     }
   },
   {
+    "obj_attr": "static",
     "obj_id": "11",
     "obj_type": "Rider",
     "psr": {
@@ -148,7 +128,7 @@
   },
   {
     "obj_id": "12",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 14.852178392313363,
@@ -169,7 +149,7 @@
   },
   {
     "obj_id": "13",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 7.384257014309696,
@@ -190,7 +170,7 @@
   },
   {
     "obj_id": "15",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 26.501654719824728,
@@ -211,7 +191,7 @@
   },
   {
     "obj_id": "20",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": -0.4221746774346684,
@@ -232,7 +212,7 @@
   },
   {
     "obj_id": "23",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 14.86459317241679,
@@ -253,7 +233,7 @@
   },
   {
     "obj_id": "27",
-    "obj_type": "Car_轿车",
+    "obj_type": "Car_\u8f7f\u8f66",
     "psr": {
       "position": {
         "x": 36.97714857076062,
@@ -274,7 +254,7 @@
   },
   {
     "obj_id": "31",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": -18.973385988607333,
@@ -316,7 +296,7 @@
   },
   {
     "obj_id": "51",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": 23.136293201736407,
@@ -337,7 +317,7 @@
   },
   {
     "obj_id": "53",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": 19.483984140064422,
@@ -379,7 +359,7 @@
   },
   {
     "obj_id": "55",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": 31.86102411918546,
@@ -400,7 +380,7 @@
   },
   {
     "obj_id": "56",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": 31.376673016919085,
@@ -421,7 +401,7 @@
   },
   {
     "obj_id": "81",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": -8.48876171313168,
@@ -442,7 +422,7 @@
   },
   {
     "obj_id": "82",
-    "obj_type": "Pedestrian_行人",
+    "obj_type": "Pedestrian_\u884c\u4eba",
     "psr": {
       "position": {
         "x": -9.083890529840573,
@@ -463,7 +443,7 @@
   },
   {
     "obj_id": "1001",
-    "obj_type": "Truck_卡车",
+    "obj_type": "Truck_\u5361\u8f66",
     "psr": {
       "position": {
         "x": -21.29511951465247,
@@ -479,6 +459,27 @@
         "x": 5.083309851403533,
         "y": 1.7025087091290587,
         "z": 2.2705067053039354
+      }
+    }
+  },
+  {
+    "obj_id": "1007",
+    "obj_type": "Car_\u8f7f\u8f66",
+    "psr": {
+      "position": {
+        "x": 3.580507785183727,
+        "y": -2.175397551939045,
+        "z": -1.084011808
+      },
+      "rotation": {
+        "x": -0.06819227924229494,
+        "y": 0.002044793837571052,
+        "z": 4.740576049921166
+      },
+      "scale": {
+        "x": 4.681905196097252,
+        "y": 1.9168826499425866,
+        "z": 1.5
       }
     }
   }
